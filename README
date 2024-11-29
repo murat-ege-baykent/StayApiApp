@@ -1,0 +1,11 @@
+In this project, I intended to create a hotel booking API using .NET Core and Csharp. It has models such as StayItem, meaning the hotel, and BookingItem, meaning the booking.
+They both are inside of an in-memory database using Microsoft EF Core.
+
+Assumptions:
+- If an user wants to review the hotel, they need to know the unique bookingId, which they get after booking.
+- Querying the Listings and Booking are a bit different approached. The total number of people staying in the hotel during given time
+must not be higher than the hotel's capacity, therefore, users need to specify how many people will be staying during the given time.
+
+Azure Website and Video Links:
+https://drive.google.com/file/d/1BAshXp4nOhGmfD5pxvW_04YOggXbE6v1/view?usp=drive_link
+stayapiapp-fuc8bza9hmedcdcz.germanywestcentral-01.azurewebsites.net/swagger

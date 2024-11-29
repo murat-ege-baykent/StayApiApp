@@ -1,3 +1,6 @@
+Before you begin, I want to apologise since I uploaded the assignment a little bit late. I was trying to fix an error for 5 hours
+and I forgot how the time went that fast. Thank you for your understanding.
+
 In this project, I intended to create a hotel booking API using .NET Core and Csharp. It has models such as StayItem, meaning the hotel, and BookingItem, meaning the booking.
 They both are inside of an in-memory database using Microsoft EF Core.
 
@@ -5,6 +8,11 @@ Assumptions:
 - If an user wants to review the hotel, they need to know the unique bookingId, which they get after booking.
 - Querying the Listings and Booking are a bit different approached. The total number of people staying in the hotel during given time
 must not be higher than the hotel's capacity, therefore, users need to specify how many people will be staying during the given time.
+
+Errors:
+- Authentication and Authorization theorethically works, but access to the functions that need authentication are not possible because
+of unknown reasons. Tried so hard to find, but could not, so uploaded the code "without" the JWT method. But my user data
+and login controller implementations are still under the models and controllers folders.
 
 Azure Website and Video Links:
 https://drive.google.com/file/d/1BAshXp4nOhGmfD5pxvW_04YOggXbE6v1/view?usp=drive_link
